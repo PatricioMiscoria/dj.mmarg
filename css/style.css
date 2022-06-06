@@ -85,6 +85,9 @@ body{
 }
 
 .claseSection{
+    color: #fff;
+    display: flex;
+    align-self: center;
     /*border: solid 2px rgb(255, 255, 255);*/
 }
 
@@ -223,6 +226,7 @@ nav{
 
     .set__claseSection{
         grid-area: sets_sets;
+
     }
 
    #padre{ 

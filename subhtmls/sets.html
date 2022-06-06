@@ -5,6 +5,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/style.css">
+
+        <!-- Para el reproductor de mp3-->
+        <link rel="stylesheet" type="text/css" href="/background.css"> 
+
         <!-- Incorporar las funtes de Google FONTS-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -55,7 +59,7 @@
                         </label>
             
                         <!-- Estos Elementos tiene que estar juntos -->
-                        <input type="checkbox" id="menu" class="nav__input">   <!-- Este impo tiene que ser el hermano adyacente del class__menu -->
+                        <input type="checkbox" id="menu" class="nav__input">   <!-- Este input tiene que ser el hermano adyacente del class__menu -->
                         <div class="nav__menu">
                              <a href="../index.html" class="nav__item"> Inicio</a>   
                              <a href="sets.html" class="nav__item"> Sets</a>   
@@ -77,49 +81,8 @@
                 <section class="set__claseSection" > 
 
                     <!-- Hacer un reproductor de MP3 en el servidor  -->
-                    
-                    <!-- <h4 class="set__claseSection__h2"> M_+_M_(Mixcoria_+_Maxbel)</h4>-->
-                    <h5 class="set__claseSection__h2">TechNOIR - Set Techno_Bahrein_05-03-2022 </h5>
-                    
-                    <div class="set__claseSection__audio">
-                        <audio controls class="audio__controls__estilo">
-                            <source src="../mp3/M_+_M_(Mixcoria+Maxbel)_TechNOIR-Set_Techno_Bahrein_05-03-2022.mp3" type="audio/mp3">
-                            Tu navegador no soporta audio HTML5.
-                        </audio>
-                    </div>
-                   
+                    <script src="/player.js"></script>                 
 
-                    <!-- <h4 class="set__claseSection__h2"> M_+_M_(Mixcoria_+_Maxbel)</h4>-->
-                    <h5 class="set__claseSection__h2">TechNOIR - Set Techno_Bahrein_05-03-2022 </h5>
-
-                    <div class="set__claseSection__audio">
-                    <audio controls class="audio__controls__estilo">
-                        <source src="../mp3/M_+_M_(Mixcoria+Maxbel)_TechNOIR-Set_Techno_Bahrein_05-03-2022.mp3" type="audio/mp3">
-                        Tu navegador no soporta audio HTML5.
-                    </audio>
-                    </div>
-                    
-
-                    <!-- <h4 class="set__claseSection__h2"> M_+_M_(Mixcoria_+_Maxbel)</h4>-->
-                    <h5 class="set__claseSection__h2">TechNOIR - Set Techno_Bahrein_05-03-2022 </h5>
-
-                    <div class="set__claseSection__audio">
-                    <audio controls class="audio__controls__estilo">
-                        <source src="../mp3/M_+_M_(Mixcoria+Maxbel)_TechNOIR-Set_Techno_Bahrein_05-03-2022.mp3" type="audio/mp3">
-                        Tu navegador no soporta audio HTML5.
-                    </audio>
-                    </div>
-                   
-
-                    <!-- <h4 class="set__claseSection__h2"> M_+_M_(Mixcoria_+_Maxbel)</h4>-->
-                    <h5 class="set__claseSection__h2">TechNOIR - Set Techno_Bahrein_05-03-2022 </h5>
-
-                    <div class="set__claseSection__audio">
-                    <audio controls class="audio__controls__estilo">
-                        <source src="../mp3/M_+_M_(Mixcoria+Maxbel)_TechNOIR-Set_Techno_Bahrein_05-03-2022.mp3" type="audio/mp3">
-                        Tu navegador no soporta audio HTML5.
-                    </audio>
-                    </div>
                 </section>           
                 <!--        section central       -->
 
@@ -168,7 +131,7 @@
                 </footer>
                 <!-- Footer Celular-->
 
-            </div> <!-- id="padre" -->
+            </div> <!-- id="set_padre" -->
 
         </div>  <!-- id="contenedor" -->
 
